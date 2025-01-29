@@ -8,12 +8,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+//    var timeRemaining: Int = 60
+    
+    var secondsRemaining = 60
+    
+    let eggTimes = ["Soft": 300, "Medium": 420, "Hard": 720]
+  
+    @IBAction func hardnessSelected(_ sender: UIButton) {
+        
+        let hardness = sender.currentTitle!
+        
+        secondsRemaining = eggTimes[hardness]!
+        
+        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
+    }
+        
+    @objc func updateTimer() {
+        
+        if secondsRemaining > 0 {
+            print("\(secondsRemaining) seconds.")
+            secondsRemaining -= 1
+        }
+    }
+        
     }
 
-
-}
 
