@@ -15,9 +15,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Github" translatesAutoresizingMaskIntoConstraints="NO" id="kOU-kc-hk7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lauchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="HQB-8H-0me">
                                 <rect key="frame" x="16" y="59" width="361" height="759"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20392158630000001" green="0.231372565" blue="0.2941176593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -30,6 +31,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Github" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="lauchScreen" width="341.33334350585938" height="341.33334350585938"/>
     </resources>
 </document>
