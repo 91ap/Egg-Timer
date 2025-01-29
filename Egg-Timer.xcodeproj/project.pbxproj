@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		68FF6E962D4A2CE2002549E8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 68FF6E952D4A2CE2002549E8 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		689645C72D49E1A800211A92 /* Egg-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FF6E952D4A2CE2002549E8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		689645BE2D49E1A800211A92 = {
 			isa = PBXGroup;
 			children = (
+				68FF6E952D4A2CE2002549E8 /* README.md */,
 				689645C92D49E1A800211A92 /* Egg-Timer */,
 				689645C82D49E1A800211A92 /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FF6E962D4A2CE2002549E8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
